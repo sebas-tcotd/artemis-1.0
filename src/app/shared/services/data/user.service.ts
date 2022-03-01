@@ -28,6 +28,6 @@ export class UserService {
   }
 
   updateUser(user: FormData | object) {
-    return this.http.put(`${this.url}/user`, user, this.httpOptions);
+    return this.http.put(`${this.url}/users`, user, this.httpOptions);
   }
 }
