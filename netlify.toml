@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/hacker-news"
+  publish = "dist/Artemis-Front-App"
   command = "ng build"
 [[redirects]]
   from = "/*"
